@@ -55,7 +55,7 @@ coloc_test <- function(exposure_dat,
   
   for (i in 1:8) {
     list_element <- c("pvalues","N","MAF",
-                      "beta","varbeta","snps",
+                      "beta","varbeta","snp",
                       "type","sdY")[i]
     col_element <- c(col_pvalues_exposure, col_N_exposure, col_MAF_exposure,
                      col_beta_exposure, col_se_exposure, col_snp_exposure,
@@ -82,7 +82,7 @@ coloc_test <- function(exposure_dat,
   
   for (j in 1:8) {
     list_element <- c("pvalues","N","MAF",
-                      "beta","varbeta","snps",
+                      "beta","varbeta","snp",
                       "type","s")[j]
     col_element <- c(col_pvalues_outcome, col_N_outcome, col_MAF_outcome,
                      col_beta_outcome, col_se_outcome, col_snp_outcome,
